@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title> Biblioteca di Alessandria · Bootstrap v5.2</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/album/">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> 
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+      .intestazione {font-family:"Verdana";
+  		font-size:25px;
+  		font-weight: bold;
+  		color: white;
+  		text-shadow: 1px 2px 2px #000000 ; 
+  		
+  		 
+  	  }
+    </style>
+
+    
+  </head>
+  <body background="fotobiblio.jpg">
+    
+<header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">About us</h4>
+          <p class="text-muted">Siamo tre giovani studenti universitari di "Studi Filosofici e Storici" (Unipa, Università degli Studi di Palermo) prossimi alla laurea con la passione per la letteratura. Crediamo che la letteratura sia uno strumento per conoscere e comprendere il nostro mondo, sia quello esterno, sensibile, sia quello interno, il nostro "io" più autentico.</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Contact</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">bibliotecaalessandria@gmail.com</a></li>
+            <li><a href="#" class="text-white"></a></li>
+            <li><a href="#" class="text-white">+39 2233445566</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+
+    	<a><img src="nier.png" width="100"></a>
+    <div class="container">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <h1><strong>Biblioteca di Alessandria</strong> </h1>
+      </a>
+      <div class="spacer"></div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+       <h3 class="intestazione">Catalogo online di libri di letteratura Italiana, Inglese e Russa</h3>
+        
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light"> 
+
+    <div class="container">
+<h2>Letteratura Italiana</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="1" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title> <img src="decameron.jpg"> </svg>
+
+            <div class="card-body">
+              <p class="card-text">
+              G. Boccaccio, autore facente parte delle "tre corone fiorentine", è lo scrittore preso come modello della lingua italina. Questo libro è adatto a chi ha bisogna di una lettura che faccia compagnia durante i pomeriggi invernali. I personaggi, che diventano narratori essi stessi, sono portavoce del vivere quotidiano, che si rivela essere incontrollabile e imprevedibile.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  	<a href = "libro1.html">Scheda libro</a>
+                    <div id= "libro1.html"> 
+                    </div></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  	<a href=https://www.amazon.it/Decameron-Giovanni-Boccaccio/dp/8817063266/ref=sr_1_3?crid=28Y84FBOHPAU3&keywords=decameron&qid=1671535161&sprefix=decameron%2Caps%2C197&sr=8-3>Link d'acquisto </a></button>
+                </div>
+                <small class="text-muted">1851 pagine</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="1" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title> <img src="psposi.jpg"> </svg>
+
+            <div class="card-body">
+              <p class="card-text"> Alessandro Manzoni, scrittore protagonista dell'Ottocento, è stato il simbolo del Risorgimento italiano e della lotta contro l'oppressione straniera. Non mancano, però, elementi tipici del romanticismo italiano. L'amore che lega Renzo e Lucia non avrà vita facile e si perderà nel grande labirinto della Storia, finendo per essere indissolubilmente legato ad eventi storici fondamentali della storia italiana. </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  	<a href = "libro2.html">Scheda libro</a>
+                    <div id= "libro2.html"> 
+                    </div></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  	<a href=https://www.amazon.it/promessi-sposi-integrale-indice-Segnalibro/dp/8883372506/ref=sr_1_13?crid=1LFIQ6UDL89Q7&keywords=promessi+sposi&qid=1671535096&sprefix=promessi+sposi%2Caps%2C140&sr=8-13>Link d'acquisto </a></button>
+                </div>
+                <small class="text-muted">544 pagine</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="1" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title> <img src="elsa.jpg"> </svg>
+
+            <div class="card-body">
+              <p class="card-text">Elsa Morante è una delle voci femminili più importanti del Novecento. Il libro che vi suggeriamo ha come protagonista l'amore. Ma cos'è l'amore? L'unione di due persone tramite matrimonio? L'amore carnale? Ascoltate la storia narrata dalla piccola Elisa, voce innocente che cerca di sopravvivere all'amore malato ed illusorio che la circonda.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  	<a href = "libro3.html">Scheda libro</a>
+                    <div id= "libro3.html"> 
+                    </div></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  	<a href=https://www.amazon.it/Menzogna-sortilegio-Elsa-Morante/dp/8806223348/ref=sr_1_1?crid=3H62R6UNPD9UV&keywords=menzogna+e+sortilegio&qid=1671535050&sprefix=menzogna+e+%2Caps%2C145&sr=8-1>Link d'acquisto </a></button>
+                </div>
+                <small class="text-muted">728 pagine</small>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div class="container">
+    <div class="container">
+<h2>Letteratura Inglese</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="1" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title> <img src="orgoglio.jpg"> </svg>
+
+            <div class="card-body">
+              <p class="card-text">Jane Austen è con molta probabilità l'autrice inglese più famosa. Chiunque sia un amante della letteratura rosa amerà sicuramente questo libro. I sentimenti spesso sono vittima dell'orgoglio e del pregudizio, come suggerito dal titolo. L'amore sarà capace di superare questi invisibili ma così imponenti ostacoli? Non vi resta che scoprirlo. La famiglia Bennet è pronta ad aprirvi la porta di casa.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  	<a href = "libro4.html">Scheda libro</a>
+                    <div id= "libro4.html"> 
+                    </div></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  	<a href=https://www.amazon.it/Orgoglio-pregiudizio-Jane-Austen/dp/880790084X/ref=sr_1_1?crid=E4X0PZBKLI1D&keywords=orgoglio+e+pregiudizio+libro&qid=1671534986&sprefix=orgoglio+e+pre%2Caps%2C144&sr=8-1>Link d'acquisto </a></button>
+                </div>
+                <small class="text-muted">400 pagine</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="1" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title> <img src="speranze.jpg"> </svg>
+
+            <div class="card-body">
+              <p class="card-text">Charles Dickens è considerato uno dei più grandi romanzieri di tutti i tempi. Il libro che vi proponiamo si inserisce nel filone "libri di formazione", così come "Oliver Twist". Le vicende del protagnista, Pip, saranno in grando di farvi piangere ma anche di farvi nutrire una grande speranza nel futuro. La speranza può essere ingannevole ma può anche aprire porte che non sapevamo di poter spalancare.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  	<a href = "libro5.html">Scheda libro</a>
+                    <div id= "libro5.html"> 
+                    </div></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  	<a href=https://www.amazon.it/Grandi-speranze-Charles-Dickens/dp/8817069760/ref=sr_1_1?crid=1Y7ARW07JUN8U&keywords=grandi+speranze+charles+dickens+bur&qid=1671534926&sprefix=grandi+speranze+charles+dickens+%2Caps%2C228&sr=8-1>Link d'acquisto </a></button>
+                </div>
+                <small class="text-muted">610 pagine</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="1" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title> <img src="maurice.jpg"> </svg>
+
+            <div class="card-body">
+              <p class="card-text">Edward M. Forster scrisse romanzi da cui furono tratti molti flm di successo. Il libro tratta della ricerca continua della normalità da parte degli esseri umani. Non è sempre facile amare se stessi. I sentimenti possono far paura. L'essere umano, in questo libro, svela tutta la sua vulnerabilità. </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  	<a href = "libro6.html">Scheda libro</a>
+                    <div id= "libro6.html"> 
+                    </div></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  	<a href=https://www.amazon.it/Maurice-Edward-Morgan-Forster/dp/881181071X/ref=sr_1_1?crid=32NXKCFGUWTSD&keywords=maurice+forster&qid=1671534818&sprefix=maurice+%2Caps%2C189&sr=8-1>Link d'acquisto </a></button>
+                </div>
+                <small class="text-muted">263 pagine</small>
+              </div>
+            </div>
+          </div>
+        </div>
+	</div class="container">
+	<div class="container">
+<h2>Letteratura Russa</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="1" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title> <img src="eugenio.jpg"> </svg>
+
+            <div class="card-body">
+              <p class="card-text">Aleksandr Sergeevič Puškin è un esempio del romanticismo russo. Il protagonista del nostro libro, vittima della noia, sarà vittima del ben più temibile sentimento chiamato rimpianto. Fantasma che insegue costantemente chi è sua vittima. Perchè il nostro protagonista ne è vittima? Tocca a voi scoprirlo.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  	<a href = "libro7.html">Scheda libro</a>
+                    <div id= "libro7.html"> 
+                    </div></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  	<a href=https://www.amazon.it/Eugenio-Onegin-Aleksandr-Puskin/dp/8817165190/ref=sr_1_1?crid=1U9690F70KPAI&keywords=eugenio+onegin+puskin&qid=1671534716&sprefix=eugenio+onegi%2Caps%2C256&sr=8-1>Link d'acquisto </a></button>
+                </div>
+                <small class="text-muted">640 pagine</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="1" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title> <img src="guerra.jpg"> </svg>
+
+            <div class="card-body">
+              <p class="card-text">Lev Nikolàevič Tolstòj è tra i più grandi scrittori russi di sempre. L'invasione napoleonica della Russia, che si rivelò un totale insuccesso, fa da sfondo alle vicende dei protagonisti del libro. Non fatevi ingannare dalle tenute lussuose, dagli abiti o dagli altisonanti titoli nobiliari. La guerra non fa distinzioni e non risparmia nessuno.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  	<a href = "libro8.html">Scheda libro</a>
+                    <div id= "libro8.html"> 
+                    </div></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  	<a href="https://www.amazon.it/Guerra-pace-Lev-Tolstoj/dp/8817117382/ref=sr_1_5?crid=2UCFO2O01F7SW&keywords=guerra+e+pace+lev+tolstoj&qid=1671534453&sprefix=%2Caps%2C147&sr=8-5">Link d'acquisto </a></button>
+                </div>
+                <small class="text-muted">1472 pagine</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="1" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title> <img src="fratelli.jpg"> </svg>
+
+            <div class="card-body">
+              <p class="card-text">Fëdor Michajlovič Dostoevskij è, insieme a Tolstòj, fra i grandi romanzieri russi. Le vicende di famiglia protagonista daranno vita a discussioni filosofiche e religiose. L'evento principale è un'omicidio, ma di chi è la "colpa"? Chi leggerà queto libro scoprirà che tutti sono colpevoli in questo mondo.</TABLE></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  	<a href = "libro9.html">Scheda libro</a>
+                    <div id= "libro9.html"> 
+                    </div></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  	<a href="https://www.amazon.it/I-fratelli-Karamazov-F%C3%ABdor-Dostoevskij/dp/8806249096/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1671489707&sr=8-2">Link d'acquisto </a></button>
+                </div>
+                <small class="text-muted">1080 pagine</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+	</div class="container">
+</main>
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+      
+  </body>
+</html>
